@@ -1,0 +1,24 @@
+.btn {
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+
+  background-color: var(--neutral);
+  color: var(--neutral-content);
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: var(--neutral-focus);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--primary-content);
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-focus);
+}

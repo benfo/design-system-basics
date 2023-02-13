@@ -1,0 +1,36 @@
+@import "_reset.css";
+@import "_variables.css";
+@import "_components.css";
+
+body {
+  background-color: var(--base);
+  color: var(--base-content);
+}
+
+main {
+  padding-top: 64px;
+}
+
+.navbar {
+  height: 64px;
+  background-color: var(--base-300);
+
+  position: fixed;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 16px;
+}
+
+.nav-brand {
+  font-size: var(--font-size-xl);
+}
+
+.nav-item {
+  padding: 8px 16px;
+}

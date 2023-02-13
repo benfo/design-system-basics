@@ -32,3 +32,7 @@ Tasks:
 - https://www.w3schools.com/html/html5_semantic_elements.asp
 - https://picnicss.com/
 - https://getbootstrap.com/docs/5.3/components/buttons/
+
+- add another color
+- implement btn variant
+- add hover state with transition for the navlinks using the primary color

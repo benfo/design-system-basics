@@ -1,0 +1,27 @@
+:root {
+  /* COLOR */
+  --base-100: white;
+  --base-200: #f2f2f2;
+  --base-300: #e5e6e6;
+  --base-content: #333;
+
+  --neutral: #3f4451;
+  --neutral-focus: #323641;
+  --neutral-content: #fff;
+
+  --primary: #6000f9;
+  --primary-focus: #4b00cc;
+  --primary-content: #fff;
+
+  /* FONT */
+  --font-size-xl: 1.5rem;
+  --font-size-lg: 1.25rem;
+  --font-size-md: 1rem;
+  --font-size-sm: 0.875rem;
+  --font-size-xs: 0.75rem;
+}
+
+[data-theme="dark"] {
+  --base: #333;
+  --base-content: white;
+}
