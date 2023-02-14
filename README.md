@@ -59,3 +59,14 @@ CSS:
 - Add different sized buttons
 - Implement a ghost button
 - Add a hero component to the landing page
+
+
+Tasks:
+- Create a ".section" class to enable:
+  - Each section should be 100% of the view height
+  - Change it to flex display and make sure content is displayed in the center of the screen
+  - Target the h2 element change increase the font size
+  - Add a "max-width" to the section so that there is a margin on the left and right of each section.
+- Add id's to each section and update the nav links href so that the browser can scroll to each section
+- Add smooth scroll to the page to make the sections slide over the screen
+- Add a button to toggle the data-theme attibute on the html root. The toggle values are "light" and "dark". Just use plain javascript.
