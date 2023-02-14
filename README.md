@@ -45,6 +45,12 @@ Tools:
 - Explore Chrome dev tools
 - Explore Lighthouse and the audit capabilities
 
+Terminal:
+- Make your terminal more useful
+  - oh-my-posh (https://ohmyposh.dev/docs/)
+  - posh-git (https://github.com/dahlbyk/posh-git)
+  - autocomplete
+
 CSS:
 - Explore the concept of a container
 - Enable scrollable pages and add smooth scrolling
