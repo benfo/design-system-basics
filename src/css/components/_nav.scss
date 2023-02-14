@@ -1,0 +1,25 @@
+.navbar {
+  height: var(--navbar-height);
+  background-color: var(--base-300);
+
+  position: fixed;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 16px;
+
+  transition: 0.3ms;
+
+  &-brand {
+    font-size: var(--font-size-xl);
+  }
+
+  &-item {
+    padding: var(--space-2) var(--space-4);
+  }
+}

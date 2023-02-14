@@ -1,0 +1,40 @@
+$colors: primary, secondary, success, warning;
+
+.btn {
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid transparent;
+  border-radius: var(--border-radius-base);
+  font-size: 1rem;
+  cursor: pointer;
+
+  background-color: var(--neutral);
+  color: var(--neutral-content);
+  transition: 0.3s;
+
+  &:hover {
+    background-color: var(--neutral-focus);
+  }
+
+  @each $color in $colors {
+    // btn-success
+    &-#{$color} {
+        //--success
+      background-color: var(--#{$color});
+      //--succes-content
+      color: var(--#{$color}-content);
+
+      &:hover {
+        background-color: var(--#{$color}-focus);
+      }
+    }
+  }
+
+  &-sm {
+    padding: var(--space-1) var(--space-2);
+    font-size: var(--font-size-sm);
+    border-radius: var(--border-radius-sm);
+  }
+  &-lg {
+    font-size: var(--font-size-lg);
+  }
+}
