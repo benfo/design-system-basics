@@ -20,6 +20,8 @@ Steps:
 - add `"source": "src/index.html",` to your `pacakge.json` file. this tells parcel where the "entry" point file is for your project
 - npm run dev
 
+## 13 Feb 2013
+
 Tasks:
 - commit your project to your Github account
 - add a "styles.css" file and add it to the index.html file (read parcel docs)
@@ -36,3 +38,18 @@ Tasks:
 - add another color
 - implement btn variant
 - add hover state with transition for the navlinks using the primary color
+
+## 14 Feb
+
+Tools:
+- Explore Chrome dev tools
+- Explore Lighthouse and the audit capabilities
+
+CSS:
+- Explore the concept of a container
+- Enable scrollable pages and add smooth scrolling
+- Explore CSS flexbox and grid
+- Refactor CSS to use scss
+- Add different sized buttons
+- Implement a ghost button
+- Add a hero component to the landing page
