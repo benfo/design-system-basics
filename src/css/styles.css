@@ -2,17 +2,21 @@
 @import "_variables.css";
 @import "_components.css";
 
+:root {
+  --navbar-height: 64px;
+}
+
 body {
-  background-color: var(--base);
+  background-color: var(--base-100);
   color: var(--base-content);
 }
 
 main {
-  padding-top: 64px;
+  padding-top: var(--navbar-height);
 }
 
 .navbar {
-  height: 64px;
+  height: var(--navbar-height);
   background-color: var(--base-300);
 
   position: fixed;
@@ -25,6 +29,8 @@ main {
   align-items: center;
   height: 100%;
   padding: 16px;
+
+  transition: 0.3ms;
 }
 
 .nav-brand {
@@ -32,5 +38,5 @@ main {
 }
 
 .nav-item {
-  padding: 8px 16px;
+  padding: var(--space-2) var(--space-4);
 }

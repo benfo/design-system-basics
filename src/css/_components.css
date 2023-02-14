@@ -1,8 +1,8 @@
 .btn {
-  padding: 8px 16px;
+  padding: var(--space-2) var(--space-4);
   border: 1px solid transparent;
-  border-radius: 4px;
-  font-size: 1rem;
+  border-radius: var(--border-radius-base);
+  font-size: var(--font-size-md);
   cursor: pointer;
 
   background-color: var(--neutral);
